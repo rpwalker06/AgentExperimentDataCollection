@@ -1,0 +1,140 @@
+/* 
+    Document   : introstyle
+    Created on : Apr 12, 2013, 8:05:18 PM
+    Author     : Robert Walker
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h1 {
+    font-family: 'Courier New',Courier,monospace;
+    position: relative;
+    color: #333333;
+    width: 100%;
+}
+
+body
+{
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #084015 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #084015 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #084015 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #084015));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #084015 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #084015 100%);
+    
+font-family: Geneva,Arial,Helvetica,sans-serif;
+background-attachment: fixed;
+}
+
+.nextpage
+{
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-right-color: silver;
+    border-left-color: silver;
+    border-bottom-color: silver;
+    border-top-color: silver;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: large;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    position: relative;
+    top: 10px;
+}
+
+.likert,.dropdown
+{background-color: #ccccff;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: blue;
+    border-left-color: blue;
+    border-bottom-color: blue;
+    border-top-color: blue;
+    
+    width: 80%;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: medium;
+    position: relative;
+    clip: rect(0px, 0px, 0px, 0px);
+    left: 5%;
+}
+
+.content
+{
+    
+    
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    background-color: #cccccc;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+    border-right-color: #cccccc;
+    border-left-color: #cccccc;
+    border-bottom-color: #cccccc;
+    border-top-color: #cccccc;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    border-radius: 35px;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    word-spacing: 4px;
+    font-size: larger;
+}
+
+.puzzleapplet
+{
+    
+    width: 600px;
+    height: 500px;
+}
+
+.testapplet
+{
+    
+    height: 30px;
+    position: static;
+}
+
+
